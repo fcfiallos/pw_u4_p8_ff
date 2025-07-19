@@ -1,0 +1,3 @@
+- protocolo de OAuth 2.0 es eun protocolo estandar que me permite que una aplicacion en este caso la api acceda a recursos protegidos sin necesidad de compartir credenciales 
+- todo certificado digital tiene clave privada y publica para generar el token
+exiten estandares para manejar estos token JWT json web token por las siglas en ingles 
