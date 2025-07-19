@@ -77,6 +77,7 @@ router.beforeEach((to, from, next) => {
       //autenticado, aqui valido si esta autorizado
       let usuario = localStorage.getItem('usuario');
       let arreglos = obtenerPaginasPermitidas(usuario);
+      console.log(usuario);
       if (arreglos.includes(to.path)) {
         next();
       }else{
